@@ -9,8 +9,6 @@ import {
   deleteResource
 } from '../../controller/actions/topicDashboard';
 
-//TODO: use Link so so the resource title links to it's corresponding
-
 export class ResourceItem extends React.Component {
   constructor(props) {
     super(props);
@@ -47,7 +45,6 @@ export class ResourceItem extends React.Component {
    *The intention of this function is to make a DELETE request to resources endpoint
    * @param {{e: object}} eventobject
    */
-  //FIXME: connect function to dispatch async action to backend
   handleDelete = e => {
     const id = this.props.resource.id;
     this.props.dispatch(deleteResource(Number(id), this.props.parentId));

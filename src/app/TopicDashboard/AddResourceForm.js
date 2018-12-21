@@ -79,8 +79,6 @@ export class AddResourceForm extends React.Component {
    * FIFTH: reset state. reset form values to blank
    * @param {{e:object}} eventObject
    */
-
-  //FIXME: unable to submit because type is required???
   handleSubmit = e => {
     e.preventDefault();
     const title = this.inputTitle.value;
@@ -115,7 +113,6 @@ export class AddResourceForm extends React.Component {
     }
   };
 
-  //FIXME: metadata only populates for first item added within a lifecycle, not for additionals
   render() {
     return (
       <section

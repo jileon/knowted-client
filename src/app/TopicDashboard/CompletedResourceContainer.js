@@ -2,8 +2,6 @@ import React from 'react';
 import ResourceItem from './ResourceItem';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 export class CompletedResourceContainer extends React.Component {
-  //TODO: Drag and drop functionality
-
   constructor(props) {
     super(props);
     this.state = {
