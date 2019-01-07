@@ -18,7 +18,7 @@
 ---
 
 <p align="center">
-Looking for the backend? <a href="https://github.com/continuouslylearning/learn-note-backend">Check it out!</a>
+Looking for the backend? <a href="https://github.com/jileon/knowted-backend">Check it out!</a>
 </p>
 
 ## About
