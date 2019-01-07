@@ -108,7 +108,7 @@ export const submitResource = (parent, title, uri) => (dispatch, getState) => {
  */
 //TODO: remove console.logs
 //FIXME: might not need ID
-export const updateSingleResource = (id, body) => dispatch => {
+export const updateSingleResource = body => dispatch => {
   api.resources
     .put(body)
     .then(data => {
