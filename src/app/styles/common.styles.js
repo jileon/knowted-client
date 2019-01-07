@@ -70,8 +70,6 @@ export const App = styled.div`
   }
 `;
 
-
-
 //NAVIGATION
 export const NavBar = styled.header`
   flex: none;
@@ -85,9 +83,8 @@ export const NavBar = styled.header`
     display: flex;
     align-items: center;
     margin-left: 16px;
-    
-  
-    font-family: kopius,serif;
+
+    font-family: kopius, serif;
     font-weight: 700;
     font-size: 1.2em;
     text-decoration: none;
@@ -147,7 +144,7 @@ export const Breadcrumb = styled.nav`
     flex-direction: row;
   }
 
-  background-color: #AEE192;
+  background-color: #aee192;
 
   font-family: omnes-pro, sans-serif;
   font-size: 1.3rem;
@@ -227,7 +224,7 @@ export const Input = styled.input``;
 export const Button = styled.button`
   min-width: 200px;
   padding: 18px 34px;
-  margin: 16px 0;
+  margin: 16px 5px;
 
   background: black;
   color: white;
